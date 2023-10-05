@@ -1,4 +1,4 @@
 # @kreds/fastify
 
 > [!IMPORTANT]
-> When using with TypeScript, make sure to either import the type declarations (`import '@kreds/fastify/types';`) or reference them (`/// <reference path="@kreds/fastify/types" />`)
+> When using with TypeScript, make sure to reference the type declarations (`/// <reference types="@kreds/fastify/types" />`)
