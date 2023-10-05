@@ -9,8 +9,7 @@
     "skipLibCheck": true,
     "strict": true,
     "esModuleInterop": true,
-    "outDir": "./dist",
-    "types": ["./src/index.ts"]
+    "outDir": "./dist"
   },
   "include": ["**/node_modules/*", "./src"]
 }

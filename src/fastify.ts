@@ -3,6 +3,7 @@ import 'fastify';
 import { FastifyPreHandler, UserPredicate } from './types.js';
 
 declare module 'fastify' {
+  // @ts-ignore
   interface FastifyInstance {
     expect?: {
       // property(propertyKey: string): {
@@ -20,6 +21,7 @@ declare module 'fastify' {
     };
   }
 
+  // @ts-ignore
   interface FastifyRequest {
     user?: any;
   }
